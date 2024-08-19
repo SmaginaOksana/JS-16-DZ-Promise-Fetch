@@ -1,0 +1,61 @@
+.container {
+  padding-top: 50px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(238, 237, 237);
+}
+.container .form {
+  width: 900px;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 0 0 30px 0 rgb(174, 171, 171), 0 0 30px 0 rgb(174, 171, 171);
+  border-radius: 4px;
+  background-color: white;
+}
+.container .form .btnGet {
+  padding: 10px;
+  display: block;
+  margin: auto;
+  border: 1px rgb(172, 171, 171) solid;
+  border-radius: 4px;
+  background-color: white;
+}
+.container .form .usersContainer {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: auto;
+  border-radius: 4px;
+  background-color: white;
+}
+.container .form .usersContainer .user {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 110px;
+  height: 140px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 30px 0 rgb(174, 171, 171), 0 0 30px 0 rgb(174, 171, 171);
+}
+.container .form .usersContainer .user h2 {
+  text-align: center;
+  font-size: 15px;
+}
+.container .form .usersContainer .user span {
+  font-size: 10px;
+}
+.container .form .usersContainer .user .delete {
+  padding: 5px;
+  background-color: white;
+  border: 1px solid rgb(221, 219, 219);
+  border-radius: 4px;
+  color: red;
+  cursor: pointer;
+}
+.container .form .usersContainer .user .delete:hover {
+  background-color: red;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
